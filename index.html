@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navbar_left">
+        <div class="navbar_left-logo">
+          <i class="fab fa-weibo"></i>
+        </div>
+        <div class="navbar_left-input">
+          <i class="fas fa-search"></i>
+          <input type="text" class="input" placeholder="Search" />
+        </div>
+      </div>
+      <div class="navbar_middle">
+        <div class="navbar_middle-icon">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="navbar_middle-icon">
+          <i class="fas fa-tv"></i>
+        </div>
+        <div class="navbar_middle-icon">
+          <i class="fas fa-store"></i>
+        </div>
+        <div class="navbar_middle-icon">
+          <i class="fas fa-user-friends"></i>
+        </div>
+        <div class="navbar_middle-icon">
+          <i class="fas fa-chess-queen"></i>
+        </div>
+      </div>
+      <div class="navbar_right">
+        <div class="navbar_right-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="navbar_right-icon">
+          <i class="fab fa-facebook-messenger"></i>
+        </div>
+        <div class="navbar_right-icon">
+          <i class="fas fa-bell"></i>
+        </div>
+        <div class="navbar_right-icon avatar">
+          <img src="./img/avt3.jpg" />
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <div class="container">
+        <div class="cover">
+          <div class="cover-shadow"></div>
+        </div>
+        <div class="information container-sub">
+          <div class="information-avatar">
+            <img src="./img/avt3.jpg" />
+          </div>
+          <div class="information-about">
+            <div class="information-about_name">
+              <span class="name">Huynh Khoa</span>
+              <span>(黄科)</span>
+            </div>
+            <div class="information-about_qty">
+              <span>700 bạn bè</span>
+            </div>
+          </div>
+          <div class="information-other">
+            <div class="information-other_add">
+              <button class="button add">
+                <i class="fas fa-plus-circle note"></i
+                ><a href="./CV_Frontend_HuynhAnhKhoa.pdf" download
+                  >Download my CV</a
+                >
+              </button>
+            </div>
+            <div class="information-other_edit">
+              <button class="button edit">
+                <i class="fas fa-edit note"></i>Chỉnh sửa trang cá nhân
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="intro container-sub">
+          <div class="intro-left">
+            <div class="intro1 intro-sub">Bài viết</div>
+            <div class="intro2 intro-sub">Giới thiệu</div>
+            <div class="intro3 intro-sub">Bạn bè</div>
+            <div class="intro4 intro-sub">Ảnh</div>
+            <div class="intro5 intro-sub">Video</div>
+            <div class="intro6 intro-sub">Thể thao</div>
+            <div class="intro7 intro-sub">
+              Xem thêm <i class="fas fa-sort-down"></i>
+            </div>
+          </div>
+          <div class="intro-right">
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main2">
+      <div class="container container__sub">
+        <div class="container2">
+          <div class="container-left">
+            <h3 class="introduce">Giới thiệu</h3>
+            <p class="tus font-16">
+              Hi, I'm a front-end developer. Nice to meet you!
+            </p>
+            <div class="follow">
+              <i class="fas fa-water"></i>
+              <p class="follow-p font-16">Có <span>838 người</span> theo dõi</p>
+            </div>
+            <div class="social-ins">
+              <i class="fab fa-instagram"></i>
+              <a
+                class="follow-p font-16"
+                href="https://www.instagram.com/huynhkhoauwu/"
+                target="_blank"
+                >huynhkhoauwu</a
+              >
+            </div>
+            <div class="social-ins">
+              <i class="fab fa-facebook"></i>
+              <a
+                class="follow-p font-16"
+                href="https://www.facebook.com/huynhkhoauwu"
+                target="_blank"
+                >fb.com/huynhkhoauwu</a
+              >
+            </div>
+          </div>
+          <div class="other album">
+            <span class="introduce">Ảnh</span>
+            <span class="other-all">Xem tất cả ảnh</span>
+          </div>
+          <div class="other friends">
+            <span class="introduce">Bạn bè</span>
+            <span class="other-all">Xem tất cả bạn bè</span>
+          </div>
+        </div>
+        <div class="container3">
+          <div class="container-right">
+            <div class="write-post-container">
+              <div class="user-profile">
+                <img src="/img/avt3.jpg" />
+                <input type="text" placeholder="Bạn đang nghĩ gì?" />
+              </div>
+            </div>
+            <div class="share-post-container">
+              <a href="#"><img src="./img/live.png" />Video trực tiếp</a>
+              <a href="#"><img src="./img/image.png" />Ảnh/video</a>
+              <a class="event-life" href="#"
+                ><img src="./img/flag.png" />Sự kiện trong đời</a
+              >
+            </div>
+          </div>
+          <div class="post-introduce">
+            <span class="introduce">Bài viết</span>
+            <div class="filter">
+              <i class="fas fa-filter"> </i>
+              <span> Bộ lọc</span>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="user-img">
+              <div class="user-img__profile">
+                <img src="./img/avt3.jpg" />
+              </div>
+              <div class="post-container-info">
+                <p>Huynh Khoa</p>
+                <span>3 tháng 11 <i class="fas fa-globe-americas"></i></span>
+              </div>
+            </div>
+            <p class="post-text">
+              Cậu có ước mơ không? – Ước mơ của mình chính là cùng mối tình đầu
+              "tu thành chính quả".
+            </p>
+            <img src="./img/lnp1.jpg" class="post-img" />
+            <div class="post-container__bottom">
+              <div class="react">
+                <div class="like">
+                  <i class="far fa-thumbs-up"><span>Thích</span></i>
+                </div>
+                <div class="like">
+                  <i class="far fa-comment-alt"><span>Bình luận</span></i>
+                </div>
+                <div class="like">
+                  <i class="fas fa-share-square"></i><span>Chia sẻ</span>
+                </div>
+              </div>
+            </div>
+            <div class="write-post-comment">
+              <div class="user-img__comment">
+                <img src="/img/avt3.jpg" />
+                <input type="text" placeholder="Viết bình luận..." />
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="user-img">
+              <div class="user-img__profile">
+                <img src="./img/avt3.jpg" />
+              </div>
+              <div class="post-container-info">
+                <p>Huynh Khoa</p>
+                <span
+                  >10 tháng 8, 2020 <i class="fas fa-globe-americas"></i
+                ></span>
+              </div>
+            </div>
+            <p class="post-text">
+              Cuối cùng hiểu ra rằng, một người không thể nào chống đỡ được tất
+              cả mọi chuyện. Bóng râm của một đám mây trắng cũng có thể làm
+              người ta nghẹt thở
+            </p>
+            <img src="./img/ldnnn.jpg" class="post-img" />
+            <div class="post-container__bottom">
+              <div class="react">
+                <div class="like">
+                  <i class="far fa-thumbs-up"><span>Thích</span></i>
+                </div>
+                <div class="like">
+                  <i class="far fa-comment-alt"><span>Bình luận</span></i>
+                </div>
+                <div class="like">
+                  <i class="fas fa-share-square"></i><span>Chia sẻ</span>
+                </div>
+              </div>
+            </div>
+            <div class="write-post-comment">
+              <div class="user-img__comment">
+                <img src="/img/avt3.jpg" />
+                <input type="text" placeholder="Viết bình luận..." />
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="user-img">
+              <div class="user-img__profile">
+                <img src="./img/avt3.jpg" />
+              </div>
+              <div class="post-container-info">
+                <p>Huynh Khoa</p>
+                <span
+                  >9 tháng 11, 2017 <i class="fas fa-globe-americas"></i
+                ></span>
+              </div>
+            </div>
+            <p class="post-text">
+              Trên đời này dù có người cao hơn em, gầy hơn em, xinh đẹp hơn em,
+              dịu dàng hơn em, hiểu chuyện hơn em, nhưng tất cả cả đều không
+              liên quan đến anh...
+            </p>
+            <img src="./img/gttxtd.jpg" class="post-img" />
+            <div class="post-container__bottom">
+              <div class="react">
+                <div class="like">
+                  <i class="far fa-thumbs-up"><span>Thích</span></i>
+                </div>
+                <div class="like">
+                  <i class="far fa-comment-alt"><span>Bình luận</span></i>
+                </div>
+                <div class="like">
+                  <i class="fas fa-share-square"></i><span>Chia sẻ</span>
+                </div>
+              </div>
+            </div>
+            <div class="write-post-comment">
+              <div class="user-img__comment">
+                <img src="/img/avt3.jpg" />
+                <input type="text" placeholder="Viết bình luận..." />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="js.js"></script>
+</html>
